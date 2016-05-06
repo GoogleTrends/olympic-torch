@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Where is the Olympic Torch? - Google Trends</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="app.722ed7fd.css" />
+  <meta property="og:title" content="" />
+  <meta property="og:url" content="http://googletrends.github.io/olympic-torch/" />
+  <meta property="og:image" content="http://googletrends.github.io/olympic/torch/images/facebook.jpg" />
+  <meta property="og:description" content="" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@GoogleTrends">
+  <meta name="twitter:creator" content="@GoogleTrends">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="http://googletrends.github.io/olympic-torch/images/twitter-card.jpg">
+</head>
+<body>
+	<div id ="app.07fc6e4d">
+		<header>
+			<div class="header-left">
+				<span id="en" rv-class-selected="langEn">{  strings.header_english }</span>
+				<span id="pt" rv-class-selected="langPt">{ strings.header_portugese }</span>
+			</div>
+			<div class="header-right">
+				<a href="https://www.google.com/trends/" target="_blank">
+					<img height="25" src="images/ui/trends.333963ee.svg" />
+				</a>
+			</div>
+		</header>
+		<main>
+			<h3>{ strings.subhead } </h3>
+
+			<div class="title-holder">
+				<h1>{ strings.where_is_the_olympic_torch }</h1>
+
+				<div class="share-buttons">
+					<img id="twitter-share" src="images/ui/twitter.d8fa791c.svg" width="30" height="30" />
+					<img id="facebook-share" src="images/ui/facebook.812035c8.svg" width="30" height="30" />
+				</div>
+			</div>
+
+			<div class="timeline">
+				<svg viewBox="0 0 960 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				    <defs>
+				        <path d="M207.360705,23.2895215 L215.729245,37.2624245 L225.021802,23.2895215 L256.37424,23.2895215 L256.37424,-0.222750583 L178,-0.222750583 L178,23.2895215 L207.360705,23.2895215 Z" id="path-1"></path>
+				        <rect id="path-3" x="1.42108547e-14" y="37.7772494" width="100%" height="20"></rect>
+				        <rect id="path-5" x="3.55271368e-15" y="37.7772494" width="215.654429" height="20"></rect>
+				    </defs>
+				    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				        <text id="Aug-5th" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#D8D8D8">
+				            <tspan x="909.35791" y="81.7772494">{ strings.august } 5</tspan>
+				        </text>
+				        <g id="Combined-Shape">
+				            <use fill="black" fill-opacity="1" xlink:href="#path-1"></use>
+				            <use fill="#F19000" fill-rule="evenodd" xlink:href="#path-1"></use>
+				        </g>
+				        <text id="June-1st" font-family="Roboto-Regular, Roboto" font-size="15" font-weight="normal" fill="#002337">
+				            <tspan x="187.130797" y="15.7772494">{ date }</tspan>
+				        </text>
+				        <g id="Rectangle-1">
+				            <use fill="black" fill-opacity="1" xlink:href="#path-3"></use>
+				            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+				        </g>
+				        <g id="Rectangle-1">
+				            <use fill="black" fill-opacity="1" xlink:href="#path-5"></use>
+				            <use fill="#F19000" fill-rule="evenodd" xlink:href="#path-5"></use>
+				        </g>
+				        <text id="May-3rd" font-family="Roboto-Light, Roboto" font-size="15" font-weight="300" fill="#D8D8D8">
+				            <tspan x="0.215332031" y="81.7772494">{ strings.may } 3</tspan>
+				        </text>
+				    </g>
+				</svg>
+			</div>
+
+			<div class="columns">
+				<section class="map">
+					<img src="images/maps/map-1.231f21fd.svg" />
+				</section>
+				<section class="questions">
+					<h2>{ strings.top_olympic_searches }
+
+					<div class="tabs">
+						<span id="local" rv-class-selected="searchLocal">{ strings.brazil }</span>
+						<span id="global" rv-class-selected="searchGlobal">{ strings.world }</span>
+					</div>
+
+					<ol>
+						<li rv-each-question="questions">
+							<a rv-href="question | google" target="_blank">{ question }</a>
+						</li>
+					</ol>
+					<span class="date">{ date }</span>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<a href="http://interactiveunicorn.com" target="_blank">{ strings.footer }</a>
+		</footer>
+	</div>
+	<script src="app.07fc6e4d.js"></script>
+</body>
+</html>
